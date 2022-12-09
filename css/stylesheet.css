@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+:root{
+
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(233, 8%, 79%);
+--Dark-grayish-blue: hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+
+}
+
+.logo{
+
+width: 50px;
+
+}
+
+h1{
+font-size: 38px;
+font-weight: 700;
+
+}
+
+.boton_leer{
+
+border: none;
+background: var(--Soft-red);
+padding: 10px;
+width: 174px;
+color: white;
+letter-spacing: 5px;
+font-size: 15px;
+}
+
+.new ,.ai,.funding,.encabezado1{
+
+color: var(--Soft-orange);
+font-weight: 700;
+}
+
+.bar{
+background: var(--Very-dark-blue);
+}
+
+.articulo
+{
+color: var(--Grayish-blue);
+}
+
+.container{
+background: white;
+}
