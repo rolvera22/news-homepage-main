@@ -46,7 +46,7 @@ color: var(--Soft-orange);
 font-weight: 700;
 }
 
-.bar{
+.textos{
 background: var(--Very-dark-blue);
 }
 
@@ -55,6 +55,17 @@ background: var(--Very-dark-blue);
 color: var(--Grayish-blue);
 }
 
-.container{
-background: white;
+.articulo1{
+border-bottom: red;
+}
+
+.computers,.laptops,.gaming{
+
+width: 120px;
+}
+
+.computers, .laptops,.videogames{
+
+float: left;
+
 }
