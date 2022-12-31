@@ -121,37 +121,6 @@ transform: perspective(1px) translateZ(0);
 
 }
 
-.logo {
-
-    display: inline-block;
-    transform: perspective(1px) translateZ(0);
-    }
-    
-    .boton_leer:hover,
-    .boton_leer:focus,
-    .boton_leer:active{
-    
-        animation-name: efectoBoton;
-        animation-duration: 1s ;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: 1;
-    
-    }
-    
-    @keyframes efectoBoton {
-    
-    17% {transform: translateY(8px);}
-    34% {transform: translateY(-6px);}
-    50% {transform: translateY(4px);}
-    67% {transform: translateY(-2px);}
-    84% {transform: translateY(1px);}
-    100% {transform: translateY(0);}
-    
-    }
-
-
-
-
 @media only screen and (min-width: 576px){
 
     .logo{
