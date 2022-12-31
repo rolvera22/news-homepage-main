@@ -17,6 +17,12 @@
 
 }
 
+
+.btn-close{
+    background-size: auto;
+}
+
+
 .logo{
 
 width: 50px;
@@ -69,3 +75,121 @@ width: 120px;
 float: left;
 
 }
+
+.logo{
+
+width: 30px;    
+
+}
+
+.nav-item:hover{
+text-decoration: underline;
+
+}
+
+.nav-item{
+
+transition: all 0.2s;
+
+}
+
+.boton_leer {
+
+display: inline-block;
+transform: perspective(1px) translateZ(0);
+}
+
+.boton_leer:hover,
+.boton_leer:focus,
+.boton_leer:active{
+
+    animation-name: efectoBoton;
+    animation-duration: 1s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes efectoBoton {
+
+17% {transform: translateY(8px);}
+34% {transform: translateY(-6px);}
+50% {transform: translateY(4px);}
+67% {transform: translateY(-2px);}
+84% {transform: translateY(1px);}
+100% {transform: translateY(0);}
+
+}
+
+.logo {
+
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    }
+    
+    .boton_leer:hover,
+    .boton_leer:focus,
+    .boton_leer:active{
+    
+        animation-name: efectoBoton;
+        animation-duration: 1s ;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    
+    }
+    
+    @keyframes efectoBoton {
+    
+    17% {transform: translateY(8px);}
+    34% {transform: translateY(-6px);}
+    50% {transform: translateY(4px);}
+    67% {transform: translateY(-2px);}
+    84% {transform: translateY(1px);}
+    100% {transform: translateY(0);}
+    
+    }
+
+
+
+
+@media only screen and (min-width: 576px){
+
+    .logo{
+    
+    width: 60px;
+    
+    }
+
+}
+@media only screen and (min-width: 1200px){
+
+.titulo-primero, .titulo-segundo{
+
+bottom:135px
+
+}
+
+.division{
+
+position: relative;
+bottom: 170px;
+
+}
+}
+
+
+@media only screen and (min-width: 1400px){
+
+    .titulo-primero, .titulo-segundo{
+    
+    bottom:40px
+    
+    }
+    
+    .division{
+
+        position: relative;
+        bottom: 90px;
+        }
+    
+    }
